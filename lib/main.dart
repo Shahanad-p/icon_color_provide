@@ -16,6 +16,7 @@ class MyApp extends StatelessWidget {
       create: (context) => ColorsProvide(),
       child: const MaterialApp(
         home: HomeScreen(),
+        debugShowCheckedModeBanner: false,
       ),
     );
   }
