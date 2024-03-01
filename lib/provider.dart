@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class ColorsProvide extends ChangeNotifier {
   Color buttonColors = Colors.white;
 
-  void colorYello() {
+  void colorYellow() {
     buttonColors = Colors.yellow;
     notifyListeners();
   }
@@ -15,6 +15,11 @@ class ColorsProvide extends ChangeNotifier {
 
   void colorPurple() {
     buttonColors = Colors.purple;
+    notifyListeners();
+  }
+
+  void colorRed() {
+    buttonColors = Colors.red;
     notifyListeners();
   }
 }
